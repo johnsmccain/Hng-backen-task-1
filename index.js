@@ -2,7 +2,7 @@ const express = require("express");
 
 const app = express();
 
-app.get("/me", (req, res) => {
+app.get("/", (req, res) => {
     res.status(200).json({
         slackUsername: "Johndanlami", 
         backend: true, 
